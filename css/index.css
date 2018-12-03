@@ -1,0 +1,151 @@
+.nav{
+	width: 100%;
+	height: 1.08rem;
+}
+.nav div{
+	float: left;
+}
+.nav .menu{
+	width: .5rem;
+	height: .34rem;
+	margin-top: .44rem;
+	margin-left: .3rem;
+}
+.nav .logo{
+	width: 1.86rem;
+	height: .62rem;
+	margin-top: .3rem;
+	margin-left: 1.85rem;
+}
+.nav .tell{
+	width: 1.77rem;
+	height: .23rem;
+	margin-top: .5rem;
+	margin-left: 1rem;
+}
+
+/* 内容部分开始 */
+.look-more{
+	width: 1.8rem;
+	height: .36rem;
+	line-height: .36rem;
+	background: #df0000;
+	border-radius: .14rem;
+	font-size: .22rem;
+	color:#fff;
+	text-align: center;
+	margin: .28rem auto 0;
+}
+.media-bus{
+	width: 7.5rem;
+	height: 8.04rem;
+	background: url('../images/media_bus.png') no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding-top: 1.54rem;
+}
+.media-bus .bus-list{
+	width: 5.54rem;
+	height: 5.55rem;
+	margin-left: .97rem;
+}
+.media-bus .bus-list ul li{
+	position: relative;
+	width: 2.64rem;
+	height: 2.65rem;
+	float: left;
+}
+.media-bus .bus-list ul li img{
+	width: 2.64rem;
+	height: 2.65rem;
+}
+.super-box{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: .37rem;
+	line-height: .37rem;
+	background: #000;
+	opacity: .5;
+}
+ul li p{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: .37rem;
+	line-height: .37rem;
+	text-align: center;
+	font-size: .24rem;
+	color: #fff;
+}
+.media-bus .bus-list ul li:nth-child(2),.media-bus .bus-list ul li:nth-child(4){
+	margin-left: .25rem;
+}
+.media-bus .bus-list ul li:nth-child(3),.media-bus .bus-list ul li:nth-child(4){
+	margin-top: .25rem;
+}
+.media-highiron{
+	width: 7.5rem;
+	height: 5.45rem;
+	background: url('../images/media_highiron.png') no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding-top: .4rem;
+}
+.media-highiron .highiron-list{
+	width: 4.64rem;
+	height: 4.67rem;
+	margin-left: 2.66rem;
+}
+.media-highiron .highiron-list ul li{
+	position: relative;
+	width: 2.26rem;
+	height: 2.27rem;
+	float: left;
+}
+.media-highiron .highiron-list ul li img{
+	width: 2.26rem;
+	height: 2.27rem;
+}
+.media-highiron .highiron-list ul li:nth-child(2),.media-highiron .highiron-list ul li:nth-child(4){
+	margin-left: .12rem;
+}
+.media-highiron .highiron-list ul li:nth-child(3),.media-highiron .highiron-list ul li:nth-child(4){
+	margin-top: .13rem;
+}
+/* 内容部分结束 */
+
+
+
+
+
+.fiexdiv{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: .88rem;
+	margin: 0 auto;
+}
+.fiexdiv span{
+	display:block;
+	width: 50%;
+	height: .88rem;
+	line-height: .88rem;
+	text-align: center;
+	font-size: .26rem;
+	float: left;
+	text-indent: .4rem;
+}	
+.fiexdiv span a{
+	color: #454545;
+}
+.fiexdiv span.telphone{
+	background: #f7f7f7 url('../images/icon-tel.png') no-repeat .8rem .15rem;
+	background-size: .6rem .54rem;
+}
+.fiexdiv span.service{
+	background: #f7f7f7 url('../images/icon-xx.png') no-repeat .8rem .15rem;
+	background-size: .6rem .54rem;
+    color: #454545;
+}
